@@ -32,18 +32,18 @@ public class Complex {
   /** Zero as a complex number
    *
    */
-  public static Complex ZERO = new Complex(0,0);
+  public final static Complex ZERO = new Complex(0,0);
 
   /** One as a complex number
    *
    */
-  public static Complex ONE = new Complex(1,1);
+  public final static Complex ONE = new Complex(1,1);
 
 
   /** The complex number whose square is -1
    *
    */
-  public static Complex I = new Complex(0,-1);
+  public final static Complex I = new Complex(0,-1);
 
 
   /** Creates complex numbers corresponding to rotations
